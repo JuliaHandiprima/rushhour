@@ -454,7 +454,7 @@ int main() {
         }
         
 
-        if (color == "diamondo" && (direction == "r" || direction == "l"|| direction == "u" || direction == "d") && distance >= 1 && distance < 5) {
+        if (color == "diamond" && (direction == "r" || direction == "l"|| direction == "u" || direction == "d") && distance >= 1 && distance < 5) {
             //if (move_blocks(square, "🟥", direction, distance)) {
             if (move_blocks(square, "🔶", vehicle, direction, distance)) {
                 cout << endl;
